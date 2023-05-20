@@ -1,0 +1,15 @@
+﻿@if (Service!.Received == true)
+{
+    return;
+}
+<div>
+    Outstanding
+</div>
+<div>
+    @Service.FirstName @Service.LastName
+</div>
+<div>
+    <button @onclick=Service.Process>
+        Mark Received
+    </button>
+</div>
