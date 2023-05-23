@@ -1,12 +1,13 @@
-﻿@if (Service!.Received == true)
+﻿@if (Service!.Received == true || Person == null)
 {
     return;
 }
+
 <div>
     Outstanding
 </div>
 <div>
-    @Service.FirstName @Service.LastName
+    @Person?.FirstName @Person?.LastName
 </div>
 <div>
     <button @onclick=Service.Process>

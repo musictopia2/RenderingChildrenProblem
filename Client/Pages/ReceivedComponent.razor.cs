@@ -5,5 +5,8 @@ public partial class ReceivedComponent
 {
     [Inject]
     private PersonService? Service { get; set; }
+    
+    [Parameter]
+    public Person? Person { get; set; }
 
 }
