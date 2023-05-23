@@ -1,5 +1,17 @@
 ﻿@page "/"
+<ListComponent People="_people" />
 <div>
+    <button @onclick="Clear">
+        Clear People
+    </button>
+</div>
+<div>
+    <button @onclick="Reset">
+        Reset
+    </button>
+</div>
+
+@*<div>
     <OutstandingComponent Person="Service!.Person"/>
 </div>
 <div>
@@ -14,4 +26,4 @@
     <button @onclick=Service.Reset>
         Reset
     </button>
-</div>
+</div>*@

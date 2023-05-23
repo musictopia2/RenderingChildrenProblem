@@ -1,0 +1,15 @@
+﻿@if (People.Count == 0)
+{
+    <div>
+        No People
+    </div>
+    return;
+}
+@{
+    @foreach (var item in People)
+    {
+        <div>
+            @item.FirstName @item.LastName
+        </div>
+    }
+}

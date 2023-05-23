@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33712.159
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RenderingChildrenProblem.Server", "Server\RenderingChildrenProblem.Server.csproj", "{4B24DB1E-0A85-4450-8DBC-2634B47B9E2E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RenderingChildrenProblem.Server", "Server\RenderingChildrenProblem.Server.csproj", "{4B24DB1E-0A85-4450-8DBC-2634B47B9E2E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RenderingChildrenProblem.Client", "Client\RenderingChildrenProblem.Client.csproj", "{DE84AE9F-DFCC-489D-9061-A35B9D358582}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RenderingChildrenProblem.Client", "Client\RenderingChildrenProblem.Client.csproj", "{DE84AE9F-DFCC-489D-9061-A35B9D358582}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RenderingChildrenProblem.Shared", "Shared\RenderingChildrenProblem.Shared.csproj", "{6AECB350-DAD1-4C26-A98C-11A7B52A42A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RenderingChildrenProblem.Shared", "Shared\RenderingChildrenProblem.Shared.csproj", "{6AECB350-DAD1-4C26-A98C-11A7B52A42A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
