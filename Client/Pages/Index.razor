@@ -1,12 +1,13 @@
 ﻿@page "/"
 <div>
-    <OutstandingComponent />
+    <OutstandingComponent Person="Service.Person"/>
 </div>
 <div>
-    <ReceivedComponent />
+    <ReceivedComponent Person="Service.Person"/>
 </div>
+
 <div>
-    <button @onclick=Service!.Reset>
+    <button @onclick=Service.Reset>
         Reset
     </button>
 </div>

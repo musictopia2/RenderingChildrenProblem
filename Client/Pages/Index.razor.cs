@@ -7,6 +7,11 @@ public partial class Index
     private PersonService? Service { get; set; }
     protected override void OnInitialized()
     {
-        Service!.StateChanged = StateHasChanged;
+        Service!.StateChanged = UpdateState;
+    }
+
+    void UpdateState()
+    {
+        StateHasChanged();
     }
 }
