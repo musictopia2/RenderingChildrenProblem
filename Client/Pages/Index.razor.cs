@@ -14,4 +14,10 @@ public partial class Index
     {
         StateHasChanged();
     }
+    void SampleChange()
+    {
+        Service!.Person.FirstName = "Changed";
+        Service!.Person.LastName = "Walter";
+        StateHasChanged();
+    }
 }
